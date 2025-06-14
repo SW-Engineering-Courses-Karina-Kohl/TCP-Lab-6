@@ -61,6 +61,11 @@ public class Biblioteca {
         return null;
     }
 
+     public List<Usuario> listarUsuarios() {
+        
+        return this.usuarios;
+    }
+
     public void emprestarLivro(int usuarioId, String isbn) {
         Usuario usuario = buscarUsuarioPorId(usuarioId);
         Livro livro = buscarLivroPorIsbn(isbn);
