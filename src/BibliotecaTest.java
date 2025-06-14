@@ -45,7 +45,7 @@ public class BibliotecaTest {
     @Test
     public void testAdicionarUsuario() {
         Biblioteca biblioteca = new Biblioteca();
-        Usuario usuario = new Usuario("456", "João");
+        Usuario usuario = new Usuario(456, "João", "joao");
         
         biblioteca.adicionarUsuario(usuario);
         
