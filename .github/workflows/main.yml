@@ -17,4 +17,4 @@ jobs:
       - name: Compilar e testar
         run: |
           javac src/*.java
-          java src/CalculadoraTest
+          java src/BibliotecaTest
