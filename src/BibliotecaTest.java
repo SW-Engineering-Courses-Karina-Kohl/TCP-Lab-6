@@ -50,6 +50,6 @@ public class BibliotecaTest {
         biblioteca.adicionarUsuario(usuario);
         
         assertEquals(1, biblioteca.listarUsuarios().size());
-        assertEquals(usuario, biblioteca.buscarUsuarioPorCpf("456"));
+        assertEquals(usuario, biblioteca.buscarUsuarioPorId(456));
     }
 }
