@@ -17,5 +17,5 @@ jobs:
       - name: Compilar e testar
         run: |
           javac --class-path "lib/*" -d build src/*.java
-          java -cp "lib/*" src/BibliotecaTest
+          java -cp "lib/*" BibliotecaTest
 
