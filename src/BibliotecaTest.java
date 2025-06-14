@@ -47,7 +47,7 @@ public class BibliotecaTest {
         Biblioteca biblioteca = new Biblioteca();
         Usuario usuario = new Usuario(456, "João", "joao");
         
-        biblioteca.adicionarUsuario(usuario);
+        biblioteca.registrarUsuario(usuario);
         
         assertEquals(1, biblioteca.listarUsuarios().size());
         assertEquals(usuario, biblioteca.buscarUsuarioPorId(456));
